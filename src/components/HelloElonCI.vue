@@ -19,41 +19,41 @@
       <section>
         <article>
           <header>APELLIDOS</header>
-          <span>MUSK</span>
+          <span>{{ Apellidos }}</span>
         </article>
         <article>
           <header>NOMBRES</header>
-          <span>ELON REEVE</span>
+          <span>{{ Nombres }}</span>
         </article>
 
         <div class="grid-2-colums">
           <article>
             <header>NACIONALIDAD</header>
-            <span>SUDAFRICANO</span>
+            <span>{{ Nacionalidad }}</span>
           </article>
           <article>
             <header>SEXO</header>
-            <span>M</span>
+            <span>{{ Sexo }}</span>
           </article>
         </div>
         <div class="grid-2-colums">
           <article>
             <header>FECHA DE NACIMIENTO</header>
-            <span>28 JUN 1971 </span>
+            <span>{{ FechaDeNacimiento }}</span>
           </article>
           <article>
-            <header>NÙMERO DOCUMENTO</header>
-            <span>222.222.222</span>
+            <header>NÚMERO DOCUMENTO</header>
+            <span>{{ RUN }}</span>
           </article>
         </div>
         <div class="grid-2-colums">
           <article>
             <header>FECHA DE EMISIÒN</header>
-            <span>01 ENE 2025</span>
+            <span>{{ FechaDeEmision }}</span>
           </article>
           <article>
             <header>FECHA DE VENCIMIENTO</header>
-            <span>01 ENE 2030</span>
+            <span>{{ FechaDeVencimiento }}</span>
           </article>
         </div>
         <article>
@@ -72,18 +72,18 @@ export default {
   name: 'HelloElonCI',
   data() {
     return {
-      RUN: "",
-      Apellidos: "",
-      Nombres: "",
-      Nacionalidad: "",
-      Sexo: "",
-      FechaDeNacimiento: "",
-      NumeroDeDocumento: "",
-      FechaDeEmision: "",
-      FechaDeVencimiento: "",
+      RUN: "22.222.222-2",
+      Apellidos: "MUSK",
+      Nombres: "ELON REEVE",
+      Nacionalidad: "SUDAFRICANO",
+      Sexo: "M",
+      FechaDeNacimiento: "28 JUN 1971",
+      NumeroDeDocumento: "222.222.222",
+      FechaDeEmision: "01 ENE 2025",
+      FechaDeVencimiento: "01 ENE 2030"
     }
   }
-}
+};
 
 </script>
 
